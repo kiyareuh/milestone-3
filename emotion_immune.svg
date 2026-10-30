@@ -1,0 +1,107 @@
+<svg width="1100" height="560" viewBox="0 0 1100 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Emotions, immunity, and recovery</title>
+  <desc id="desc">A conceptual illustration showing emotional states and their relationship to the immune system and recovery.</desc>
+  <defs>
+    <linearGradient id="bgGlow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f9d9ff"/>
+      <stop offset="50%" stop-color="#e8f7ff"/>
+      <stop offset="100%" stop-color="#fff1d6"/>
+    </linearGradient>
+    <linearGradient id="immuneGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#59c3c3"/>
+      <stop offset="100%" stop-color="#2a9d8f"/>
+    </linearGradient>
+    <linearGradient id="stressGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff8fa3"/>
+      <stop offset="100%" stop-color="#ff5d73"/>
+    </linearGradient>
+    <linearGradient id="calmGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#74c69d"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5d6dff" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1100" height="560" fill="url(#bgGlow)" rx="24"/>
+
+  <text x="550" y="46" text-anchor="middle" font-size="30" font-family="Arial, sans-serif" font-weight="700" fill="#1d3557">Emotions, Immunity, and Recovery</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="58" y="120" width="250" height="300" rx="26" fill="#ffffff" opacity="0.8"/>
+    <rect x="792" y="120" width="250" height="300" rx="26" fill="#ffffff" opacity="0.8"/>
+    <rect x="420" y="180" width="260" height="180" rx="28" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <g>
+    <text x="183" y="160" text-anchor="middle" font-size="24" font-family="Arial, sans-serif" font-weight="700" fill="#4a4e69">Emotional States</text>
+
+    <g transform="translate(95 205)">
+      <circle cx="35" cy="30" r="34" fill="url(#stressGrad)"/>
+      <circle cx="23" cy="22" r="3.5" fill="#ffffff"/>
+      <circle cx="47" cy="22" r="3.5" fill="#ffffff"/>
+      <path d="M18 38 Q35 52 52 38" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 72 L70 72" stroke="#ff6b6b" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+      <text x="35" y="92" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#4a4e69">Stress</text>
+    </g>
+
+    <g transform="translate(95 285)">
+      <circle cx="35" cy="30" r="34" fill="#d9f99d"/>
+      <circle cx="23" cy="22" r="3.5" fill="#2d3748"/>
+      <circle cx="47" cy="22" r="3.5" fill="#2d3748"/>
+      <path d="M20 40 Q35 50 50 40" fill="none" stroke="#2d3748" stroke-width="4" stroke-linecap="round"/>
+      <text x="35" y="92" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#4a4e69">Calm</text>
+    </g>
+
+    <g transform="translate(95 365)">
+      <circle cx="35" cy="30" r="34" fill="url(#calmGrad)"/>
+      <circle cx="23" cy="22" r="3.5" fill="#ffffff"/>
+      <circle cx="47" cy="22" r="3.5" fill="#ffffff"/>
+      <path d="M22 40 Q35 52 48 40" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+      <text x="35" y="92" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#4a4e69">Hope</text>
+    </g>
+  </g>
+
+  <g>
+    <text x="917" y="160" text-anchor="middle" font-size="24" font-family="Arial, sans-serif" font-weight="700" fill="#4a4e69">Immune Response</text>
+
+    <g transform="translate(845 210)">
+      <circle cx="40" cy="30" r="28" fill="url(#immuneGrad)"/>
+      <circle cx="40" cy="30" r="12" fill="#dffaf8"/>
+      <circle cx="15" cy="20" r="8" fill="#9ae6b4"/>
+      <circle cx="68" cy="20" r="8" fill="#9ae6b4"/>
+      <circle cx="24" cy="55" r="9" fill="#7dd3fc"/>
+      <circle cx="57" cy="55" r="9" fill="#7dd3fc"/>
+      <text x="40" y="96" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#4a4e69">White Blood Cells</text>
+    </g>
+
+    <g transform="translate(840 335)">
+      <rect x="0" y="0" width="150" height="42" rx="18" fill="#f0fdfa" stroke="#3aa7a1" stroke-width="2"/>
+      <text x="75" y="27" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#1d3557">Recovery</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="430" y="222" width="240" height="90" rx="20" fill="#f8fbff" stroke="#b9d8ff" stroke-width="2"/>
+    <text x="550" y="255" text-anchor="middle" font-size="23" font-family="Arial, sans-serif" font-weight="700" fill="#1d3557">Emotion</text>
+    <text x="550" y="285" text-anchor="middle" font-size="23" font-family="Arial, sans-serif" font-weight="700" fill="#1d3557">+ Body Response</text>
+  </g>
+
+  <g stroke="#7a8cff" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M308 265 C360 265, 380 260, 420 260"/>
+    <path d="M792 265 C748 265, 726 260, 682 260"/>
+    <path d="M550 180 L550 120"/>
+    <path d="M550 360 L550 430"/>
+  </g>
+
+  <g>
+    <rect x="470" y="430" width="160" height="54" rx="18" fill="#fff4d6" stroke="#f2b94b" stroke-width="2"/>
+    <text x="550" y="464" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#6b4f1d">Stress → Inflammation</text>
+  </g>
+
+  <g>
+    <text x="548" y="110" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#3c4f76">Positive emotion</text>
+    <text x="548" y="132" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#3c4f76">supports healing</text>
+  </g>
+</svg>
